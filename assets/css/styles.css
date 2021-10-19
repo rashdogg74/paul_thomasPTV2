@@ -1,1 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Sans+Pro&display=swap');
+
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+body {
+    font-family: source-sans-pro, sans-serif;
+    color: brown;
+}
+
+/* Headings and logo */
+
+h1, h2, h3, h4 {
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: goldenrod;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
+
+/* Navigation bar */
+#menu {
+    font-size: 125%;
+    letter-spacing: 0.1em;
+}
+
+#menu #logo {
+    line-height: 150px;
+}
+
+#menu li {
+    float: right;
+    margin right: 1.2em;
+}
+
+#menu a {
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid goldenrod;
+}
+
+.active {
+    border-bottom: 1px solid goldenrod;
+}
+
+/* hero image styling */
+#hero-image {
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    height: 50vh;
+    width: 100%;
+    background-size:contain;
+    padding-top: 46px;
+}
